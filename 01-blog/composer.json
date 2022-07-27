@@ -1,0 +1,15 @@
+{
+    "name": "leomarqz/blog",
+    "autoload": {
+        "psr-4": {
+            "Leomarqz\\Blog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "LeoMarqz",
+            "email": "leomarqz2020@gmail.com"
+        }
+    ],
+    "require": {}
+}
