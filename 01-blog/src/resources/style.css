@@ -1,0 +1,119 @@
+
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+body{
+	font-family: Verdana;
+	background-color: lavender;
+}
+
+
+nav{
+	background-color: rgb(88, 33, 95);
+	color: white;
+}
+
+
+nav ul{
+	list-style: none;
+	display: flex;
+}
+
+nav ul li a{
+	font-size: 19px;
+	color: white;
+	text-decoration: none;	
+	padding: 10px;
+	display: block;
+	font-weight: bold;
+}
+
+
+.container-posts{
+	max-width: 900px;
+	margin: 100px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.container-posts h2{
+	color: rgb(88, 33, 95);
+	padding: 5px 0px;
+	border-bottom: 3px solid rgb(88, 33, 95);
+	margin-bottom: 20px;
+}
+
+.container-posts .post{
+	display: block;
+	border-bottom: 1px solid transparent;
+	padding: 5px;	
+	text-decoration: none;
+	margin-bottom: 5px;
+	transition: all 0.2s ease-out;
+
+}
+
+
+.container-posts .post:hover{
+	border-color: rgb(88, 33, 95);
+	background-color: rgb(89, 35, 99);
+	color: white;
+}
+
+
+.container-one-post{
+	max-width: 500px;
+	margin: 100px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.container-one-post h1,
+.container-one-post h2{
+	color: rgb(88, 33, 95);
+	padding: 5px 0px;
+	border-bottom: 3px solid rgb(88, 33, 95);
+	margin-bottom: 20px;
+}
+
+.container-one-post ul,
+.container-one-post ol{
+	border-left: 5px solid rgb(88, 33, 95);
+	list-style: none;
+	padding: 7px;
+	margin-bottom: 10px;
+}
+
+.container-one-post ul li,
+.container-one-post ol li{
+	padding: 3px;
+	margin-bottom: 3px;
+}
+
+
+.container-one-post blockquote{
+	border-left: 5px solid limegreen;
+	border-top: 1px solid limegreen;
+	border-right: 1px solid limegreen;
+	border-bottom: 3px solid limegreen;
+	padding: 10px;
+}
+
+.container-one-post blockquote p{
+	color: blueviolet;
+}
+
+
+
+
+
+
+
+
+

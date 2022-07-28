@@ -11,5 +11,7 @@
             "email": "leomarqz2020@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "league/commonmark": "^2.3"
+    }
 }
